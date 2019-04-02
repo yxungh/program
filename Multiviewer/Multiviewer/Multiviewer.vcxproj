@@ -1,0 +1,698 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{01686B2E-A74F-43A1-9EED-222AD11AB44A}</ProjectGuid>
+    <RootNamespace>Multiviewer</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\bin\</OutDir>
+    <TargetName>拼接矩阵控制平台</TargetName>
+    <IncludePath>.\videoinclude;$(IncludePath)</IncludePath>
+    <LibraryPath>.\videolib;$(LibraryPath)</LibraryPath>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\bin\</OutDir>
+    <TargetName>拼接矩阵控制平台</TargetName>
+    <IncludePath>.\videoinclude;$(IncludePath)</IncludePath>
+    <LibraryPath>.\videolib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\ScreenManage\SetColResoluation;.\ScreenManage\SetRowResoluation;.\InternalManage\ReNameTabCtrl;.\InternalManage\MyTableCtrl;.\ScreenManage\AllResulation\ResulationCut;.\InternalManage\XSaveAllScene;.\ScenePane\ReName;.\ScreenManage\ScreenName;.\MyFile;.\ScreenManage\MatrixAttributes;.\ScreenManage\MatrixAllResulation;.\ScreenManage\MatrixResulation;.\InternalManage\PreviewBoardBitRate;.\InternalManage\AllInfo;.\InternalManage\PreviewBoardNet;.\InternalManage\MySplitButton;.\InternalManage\SetPreviewBoard;.\InternalManage\PreviewChild;.\InputSignalPane\GroupNameDlg;.\InputSignalPane\AddGroupDlg;.\VideoPreviewPane\BitRate;.\VideoPreviewPane\AllInfo;.\VideoPreviewPane\PreviewBoardNet;.\InputSignalPane\PaneIPAddr;.\InputSignalPane\IPStreamAddr;.\ScreenManage\BoardChild\MyButton;.\ScreenManage\BoardChild\ScreenSet;.\ScreenManage\BoardChild\SetOSD;.\ScreenManage\SetScreenRange;.\ScreenManage\BoardChild\SetScreenIndex;.\ScreenManage\BoardChild\CorrespondScreen;.\ScreenManage\BoardChild;.\ScreenManage\SetBoard;.\ScreenManage\SelectEquipment;.\InputSignalPane\UltraAttributeDlg;.\InputSignalPane\ChangeChanel;.\ScenePane;.\VideoPreviewPane\SelectInputDlg;.\ScreenManage\ScreenMoveChange;.\InternalManage\NewView;.\ScreenManage\ChangeScreen;.\ScreenManage\AllInfo;.\ScreenManage\RunOldOrder;.\ScreenManage\AllResulation;.\InputSignalPane\SetAnotherNameDlg;.\ScreenManage\ScreenChange;.\ScreenManage\DeleteScene;.\ScreenManage\SendingData;.\ScreenManage\TimedPolling;.\ScreenManage\Attributes;.\InputSignalPane\SetEDIDDlg;.\InputSignalPane\AttributeDlg;.\ScreenManage\ScreenMoveGrid;.\ScreenManage\ScreenMove;.\InputSignalPane\BorderOverlayDlg;.\ScreenManage\ChangeInput;.\InputSignalPane\InputSignalCutDlg;.\ScreenManage\Scence;.\ScreenManage\Resolation;.\InputSignalPane\GetInputParamater;.\VideoPreviewPane\ViewPreviewDlg;.\HYXGrid;.\HYXOutputNode;.\HYXInputNode;.\HYXText;.\UserManage\UserPowerManageDlg;.\UserManage\PowerManageDlg;.\ListCtrl;.\UserManage\UserManageDlg;.\UserManage\LoginDlg;.\UserManage;.\VideoPreviewPane\ChangeInputDlg;.\VideoPreviewPane\ChangeRTSPAddrDlg;.\VideoPlayer;.\VideoPreviewPane;.\UDPWatchPane;.\AboutDlg;.\DataManage;.\InputSignalPane\OSDGrid;.\InputSignalPane\SetOSDDlg;.\IniManage;.\InputSignalPane\EditExpandDlg;.\InputSignalPane\AddExpandDlg;.\CatchError;.\NetManage;.\Type;.\Handle;.\InputSignalPane;.\ScreenManage;.\MessageBoxDlg;.\IniHandle;.\RibbonBar;.\PathManage;.\TranslationManage;.\RibbonBarManage;.\Button;.\InternalManage;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib</IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OptimizeReferences>false</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\ScreenManage\SetRowResoluation;.\ScreenManage\SetColResoluation;.\InternalManage\ReNameTabCtrl;.\InternalManage\MyTableCtrl;.\ScreenManage\AllResulation\ResulationCut;.\InternalManage\XSaveAllScene;.\ScenePane\ReName;.\ScreenManage\ScreenName;.\MyFile;.\ScreenManage\MatrixAttributes;.\ScreenManage\MatrixAllResulation;.\ScreenManage\MatrixResulation;.\InternalManage\PreviewBoardBitRate;.\InternalManage\AllInfo;.\InternalManage\PreviewBoardNet;.\InternalManage\MySplitButton;.\InternalManage\PreviewChild;.\InternalManage\SetPreviewBoard;.\InputSignalPane\GroupNameDlg;.\InputSignalPane\AddGroupDlg;.\VideoPreviewPane\BitRate;.\VideoPreviewPane\AllInfo;.\VideoPreviewPane\PreviewBoardNet;.\InputSignalPane\PaneIPAddr;.\InputSignalPane\IPStreamAddr;.\ScreenManage\BoardChild\MyButton;.\ScreenManage\BoardChild\ScreenSet;.\ScreenManage\BoardChild\SetOSD;.\ScreenManage\SetScreenRange;.\ScreenManage\BoardChild\SetScreenIndex;.\ScreenManage\BoardChild\CorrespondScreen;.\ScreenManage\SetBoard;.\ScreenManage\BoardChild;.\ScreenManage\SelectEquipment;.\ScenePane;.\InputSignalPane\UltraAttributeDlg;.\InputSignalPane\ChangeChanel;.\Button;.\VideoPreviewPane\SelectInputDlg;.\ScreenManage\ScreenMoveChange;.\InternalManage\NewView;.\ScreenManage\ChangeScreen;.\InputSignalPane\AllInfo;.\ScreenManage\AllInfo;.\ScreenManage\RunOldOrder;.\ScreenManage\AllResulation;.\ScreenManage\DeleteScene;.\InputSignalPane\SetAnotherNameDlg;.\ScreenManage\ScreenChange;.\ScreenManage\SendingData;.\ScreenManage\TimedPolling;.\ScreenManage\Attributes;.\InputSignalPane\SetEDIDDlg;.\InputSignalPane\AttributeDlg;.\ScreenManage\ScreenMoveGrid;.\ScreenManage\ScreenMove;.\InputSignalPane\BorderOverlayDlg;.\ScreenManage\ChangeInput;.\InputSignalPane\InputSignalCutDlg;.\ScreenManage\Scence;.\VideoPreviewPane\ViewPreviewDlg;.\ScreenManage\Resolation;.\HYXGrid;.\HYXOutputNode;.\HYXInputNode;.\HYXText;.\UserManage\UserPowerManageDlg;.\UserManage\PowerManageDlg;.\ListCtrl;.\UserManage\UserManageDlg;.\UserManage\LoginDlg;.\UserManage;.\VideoPreviewPane\ChangeInputDlg;.\VideoPreviewPane\ChangeRTSPAddrDlg;.\VideoPlayer;.\VideoPreviewPane;.\UDPWatchPane;.\AboutDlg;.\DataManage;.\InputSignalPane\OSDGrid;.\InputSignalPane\SetOSDDlg;.\IniManage;.\InputSignalPane\EditExpandDlg;.\InputSignalPane\AddExpandDlg;.\CatchError;.\NetManage;.\Type;.\Handle;.\InputSignalPane;.\ScreenManage;.\MessageBoxDlg;.\IniHandle;.\RibbonBar;.\PathManage;.\TranslationManage;.\RibbonBarManage;.\InternalManage;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>
+      </OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\14.png" />
+    <None Include="res\4k.ico" />
+    <None Include="res\4K1.ico" />
+    <None Include="res\about.ico" />
+    <None Include="res\AVCIT.bmp" />
+    <None Include="res\back.ico" />
+    <None Include="res\blue.ico" />
+    <None Include="res\bul.ico" />
+    <None Include="res\buttons.bmp" />
+    <None Include="res\chip.ico" />
+    <None Include="res\expand.cur" />
+    <None Include="res\filelarge.bmp" />
+    <None Include="res\filesmall.bmp" />
+    <None Include="res\folder_24px.ico" />
+    <None Include="res\folder_24px_12.ico" />
+    <None Include="res\icon1.ico" />
+    <None Include="res\icon2.ico" />
+    <None Include="res\icon5.ico" />
+    <None Include="res\Input_0.ico" />
+    <None Include="res\Input_1.ico" />
+    <None Include="res\IP.ico" />
+    <None Include="res\IP1.ico" />
+    <None Include="res\IP4K.ico" />
+    <None Include="res\IP4K1.ico" />
+    <None Include="res\layer.ico" />
+    <None Include="res\layer1.ico" />
+    <None Include="res\layer2.ico" />
+    <None Include="res\main.bmp" />
+    <None Include="res\move.cur" />
+    <None Include="res\Multiviewer.ico" />
+    <None Include="res\Multiviewer.rc2" />
+    <None Include="res\MultiviewerDoc.ico" />
+    <None Include="res\new.ico" />
+    <None Include="res\normal.ico" />
+    <None Include="res\pan.ico" />
+    <None Include="res\ribbon.mfcribbon-ms" />
+    <None Include="res\save.ico" />
+    <None Include="res\scene_24px.ico" />
+    <None Include="res\screen.ico" />
+    <None Include="res\select.ico" />
+    <None Include="res\temperature.bmp" />
+    <None Include="res\temperature.ico" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\toolbar1.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="res\toolbarsignalcontrol.bmp" />
+    <None Include="res\toolbarudpwatchpane.bmp" />
+    <None Include="res\View.ico" />
+    <None Include="res\view1.ico" />
+    <None Include="res\view2.ico" />
+    <None Include="res\writelarge.bmp" />
+    <None Include="res\writesmall.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutDlg\AboutDlg.h" />
+    <ClInclude Include="AboutDlg\XDelegateAboutDlg.h" />
+    <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="Handle\HandleListCtrl.h" />
+    <ClInclude Include="Handle\HandleShearPlate.h" />
+    <ClInclude Include="Handle\HandleVerification.h" />
+    <ClInclude Include="HYXGrid\HYXDelegateGrid.h" />
+    <ClInclude Include="HYXGrid\HYXGrid.h" />
+    <ClInclude Include="HYXGrid\HYXGridItem.h" />
+    <ClInclude Include="HYXGrid\HYXGridRow.h" />
+    <ClInclude Include="HYXInputNode\HYXDelegateInputNode.h" />
+    <ClInclude Include="HYXInputNode\HYXInputNode.h" />
+    <ClInclude Include="HYXInputNode\HYXTreeNode.h" />
+    <ClInclude Include="HYXInputNode\HYXTreeNodeItem.h" />
+    <ClInclude Include="HYXOutputNode\HYXDelegateOutputNode.h" />
+    <ClInclude Include="HYXOutputNode\HYXOutputNode.h" />
+    <ClInclude Include="HYXOutputNode\HYXVTreeNode.h" />
+    <ClInclude Include="HYXOutputNode\HYXVTreeNodeItem.h" />
+    <ClInclude Include="InputSignalPane\AddGroupDlg\XAddGroup.h" />
+    <ClInclude Include="InputSignalPane\AddGroupDlg\XDelegateAddGroup.h" />
+    <ClInclude Include="InputSignalPane\AttributeDlg\XAttributeDlg.h" />
+    <ClInclude Include="InputSignalPane\AttributeDlg\XDelegateAttributeDlg.h" />
+    <ClInclude Include="InputSignalPane\BorderOverlayDlg\XBorderOverlayDlg.h" />
+    <ClInclude Include="InputSignalPane\BorderOverlayDlg\XDelegateBorderOverlayDlg.h" />
+    <ClInclude Include="InputSignalPane\ChangeChanel\XChangeChanelDlg.h" />
+    <ClInclude Include="InputSignalPane\ChangeChanel\XDelegateChangeChanelDlg.h" />
+    <ClInclude Include="InputSignalPane\GroupNameDlg\XGroupName.h" />
+    <ClInclude Include="InputSignalPane\GroupNameDlg\XGroupName2.h" />
+    <ClInclude Include="InputSignalPane\InputSignalCutDlg\XDelegateInputSignalCutDlg.h" />
+    <ClInclude Include="InputSignalPane\InputSignalCutDlg\XInputSignalCutDlg.h" />
+    <ClInclude Include="InputSignalPane\IPStreamAddr\XDelegateStreamAddr.h" />
+    <ClInclude Include="InputSignalPane\IPStreamAddr\XStreamAddr.h" />
+    <ClInclude Include="InputSignalPane\PaneIPAddr\XDelegatePaneIPAddr.h" />
+    <ClInclude Include="InputSignalPane\PaneIPAddr\XPaneIPAddr.h" />
+    <ClInclude Include="InputSignalPane\SetEDIDDlg\XDelegateEDIDDlg.h" />
+    <ClInclude Include="InputSignalPane\SetEDIDDlg\XEDIDDlg.h" />
+    <ClInclude Include="InputSignalPane\SetAnotherNameDlg\XDelegateSetAnotherNameDlg.h" />
+    <ClInclude Include="InputSignalPane\SetAnotherNameDlg\XSetAnotherNameDlg.h" />
+    <ClInclude Include="InputSignalPane\UltraAttributeDlg\XDelegateUltraAttributeDlg.h" />
+    <ClInclude Include="InputSignalPane\UltraAttributeDlg\XUltraAttributeDlg.h" />
+    <ClInclude Include="InputSignalPane\XAnotherNameInfo.h" />
+    <ClInclude Include="InputSignalPane\XBorderOverlay.h" />
+    <ClInclude Include="InputSignalPane\XEDIDInfo.h" />
+    <ClInclude Include="InputSignalPane\XInputGroup.h" />
+    <ClInclude Include="InputSignalPane\XInputInfoInGroup.h" />
+    <ClInclude Include="InputSignalPane\XPaneIPAddrInfo.h" />
+    <ClInclude Include="InputSignalPane\XSignalCutInfo.h" />
+    <ClInclude Include="InputSignalPane\XStreamAddrInfo.h" />
+    <ClInclude Include="InternalManage\AllInfo\XBitRateInfo.h" />
+    <ClInclude Include="InternalManage\AllInfo\XSelectBoardInfo.h" />
+    <ClInclude Include="InternalManage\MySplitButton\MySplitButton.h" />
+    <ClInclude Include="InternalManage\MyTableCtrl\XMyTabctrl.h" />
+    <ClInclude Include="InternalManage\NewView\XDelegateNewViewDlg.h" />
+    <ClInclude Include="InternalManage\NewView\XNewViewDlg.h" />
+    <ClInclude Include="InternalManage\PreviewBoardBitRate\XPreviewBoardBitRate.h" />
+    <ClInclude Include="InternalManage\PreviewBoardNet\XBoardNet.h" />
+    <ClInclude Include="InternalManage\PreviewBoardNet\XBoardNetInfo.h" />
+    <ClInclude Include="InternalManage\PreviewBoardNet\XDelegateBoardNet.h" />
+    <ClInclude Include="InternalManage\PreviewChild\XDelegatePreviewChild.h" />
+    <ClInclude Include="InternalManage\PreviewChild\XPreviewBoard.h" />
+    <ClInclude Include="InternalManage\PreviewChild\XPreviewBoardWnd.h" />
+    <ClInclude Include="InternalManage\PreviewChild\XPreviewChild.h" />
+    <ClInclude Include="InternalManage\ReNameTabCtrl\XReNameTabCtrl.h" />
+    <ClInclude Include="InternalManage\SetPreviewBoard\XDelegateSetPreviewBoard.h" />
+    <ClInclude Include="InternalManage\SetPreviewBoard\XSetPreviewBoard.h" />
+    <ClInclude Include="InternalManage\XDataInternalManage.h" />
+    <ClInclude Include="InternalManage\XSaveAllScene\XDelegateSaveAllScence.h" />
+    <ClInclude Include="InternalManage\XSaveAllScene\XSaveAllScence.h" />
+    <ClInclude Include="InternalManage\XSendDataOfPreviewBoard.h" />
+    <ClInclude Include="ListCtrl\XListCtrl.h" />
+    <ClInclude Include="PathManage\XBasePathManage.h" />
+    <ClInclude Include="PathManage\XPathManage.h" />
+    <ClInclude Include="ScenePane\ReName\XDelegateReName.h" />
+    <ClInclude Include="ScenePane\ReName\XReName.h" />
+    <ClInclude Include="ScenePane\XDataScenePane.h" />
+    <ClInclude Include="ScenePane\XDelegateScenePane.h" />
+    <ClInclude Include="ScenePane\XSceneGroupInfo.h" />
+    <ClInclude Include="ScenePane\XSceneInfo.h" />
+    <ClInclude Include="ScenePane\XScenePane.h" />
+    <ClInclude Include="ScenePane\XSceneTree.h" />
+    <ClInclude Include="ScreenManage\AllInfo\XInputType.h" />
+    <ClInclude Include="ScreenManage\AllInfo\XOutputInfo.h" />
+    <ClInclude Include="ScreenManage\AllInfo\XPaneNetInfo.h" />
+    <ClInclude Include="ScreenManage\AllInfo\XResulationHCutInfo.h" />
+    <ClInclude Include="ScreenManage\AllInfo\XResulationVCutInfo.h" />
+    <ClInclude Include="ScreenManage\AllInfo\XScreenColInfo.h" />
+    <ClInclude Include="ScreenManage\AllInfo\XScreenDataInfo.h" />
+    <ClInclude Include="ScreenManage\AllInfo\XScreenRetInfo.h" />
+    <ClInclude Include="ScreenManage\AllInfo\XScreenRowInfo.h" />
+    <ClInclude Include="ScreenManage\AllResulation\ResulationCut\XResulationCut.h" />
+    <ClInclude Include="ScreenManage\AllResulation\ResulationCut\XResulationVCut.h" />
+    <ClInclude Include="ScreenManage\AllResulation\XAllResulation.h" />
+    <ClInclude Include="ScreenManage\AllResulation\XDelegateAllResulation.h" />
+    <ClInclude Include="ScreenManage\Attributes\XDelegateScreenAttributes.h" />
+    <ClInclude Include="ScreenManage\Attributes\XScreenAttributes.h" />
+    <ClInclude Include="ScreenManage\BoardChild\CorrespondScreen\XCorrespondScreen.h" />
+    <ClInclude Include="ScreenManage\BoardChild\MyButton\CMyButton.h" />
+    <ClInclude Include="ScreenManage\BoardChild\ScreenSet\ScreenSetDlg.h" />
+    <ClInclude Include="ScreenManage\BoardChild\ScreenSet\XScreenInfo.h" />
+    <ClInclude Include="ScreenManage\BoardChild\ScreenSet\XScreenInfosWnd.h" />
+    <ClInclude Include="ScreenManage\BoardChild\ScreenSet\XScreenNumInfo.h" />
+    <ClInclude Include="ScreenManage\BoardChild\SetOSD\XSetOSD.h" />
+    <ClInclude Include="ScreenManage\BoardChild\XBoardChild.h" />
+    <ClInclude Include="ScreenManage\BoardChild\XDelegateBoardChild.h" />
+    <ClInclude Include="ScreenManage\BoardChild\XEquipmentInput.h" />
+    <ClInclude Include="ScreenManage\BoardChild\XEquipmentInputWnd.h" />
+    <ClInclude Include="ScreenManage\BoardChild\XEquipmentOutput.h" />
+    <ClInclude Include="ScreenManage\BoardChild\XEquipmentOutputWnd.h" />
+    <ClInclude Include="ScreenManage\ChangeInput\XChangeInput.h" />
+    <ClInclude Include="ScreenManage\ChangeInput\XDelegateChangeInput.h" />
+    <ClInclude Include="ScreenManage\ChangeScreen\XChangeScreen.h" />
+    <ClInclude Include="ScreenManage\ChangeScreen\XDelegateChangeScreen.h" />
+    <ClInclude Include="ScreenManage\DeleteScene\XDelegateDeleteScene.h" />
+    <ClInclude Include="ScreenManage\DeleteScene\XDeleteScene.h" />
+    <ClInclude Include="ScreenManage\MatrixAllResulation\XDelegateAllMatrixResolution.h" />
+    <ClInclude Include="ScreenManage\MatrixAllResulation\XMatrixAllResolution.h" />
+    <ClInclude Include="ScreenManage\MatrixAttributes\XDelegateMatrixScreenAttributes.h" />
+    <ClInclude Include="ScreenManage\MatrixAttributes\XMatrixScreenAttributes.h" />
+    <ClInclude Include="ScreenManage\MatrixResulation\XDelegateMatrixResolution.h" />
+    <ClInclude Include="ScreenManage\MatrixResulation\XMatrixResolution.h" />
+    <ClInclude Include="ScreenManage\Resolation\XDelegateResolution.h" />
+    <ClInclude Include="ScreenManage\Resolation\XResolution.h" />
+    <ClInclude Include="ScreenManage\RunOldOrder\XDelegateRunOldOrder.h" />
+    <ClInclude Include="ScreenManage\RunOldOrder\XRunOldOrder.h" />
+    <ClInclude Include="ScreenManage\Scence\XDelegateSaveScence.h" />
+    <ClInclude Include="ScreenManage\Scence\XSaveScence.h" />
+    <ClInclude Include="ScreenManage\ScreenMoveChange\XDelegateScreenMoveChangeDlg.h" />
+    <ClInclude Include="ScreenManage\ScreenMoveChange\XScreenMoveChangeDlg.h" />
+    <ClInclude Include="ScreenManage\ScreenMoveGrid\XDelegateScreenMoveGrid.h" />
+    <ClInclude Include="ScreenManage\ScreenMoveGrid\XScreenMoveGrid.h" />
+    <ClInclude Include="ScreenManage\ScreenMove\XDelegateScreenMoveDlg.h" />
+    <ClInclude Include="ScreenManage\ScreenMove\XScreenMoveDlg.h" />
+    <ClInclude Include="ScreenManage\ScreenName\XDelegateSetScreenName.h" />
+    <ClInclude Include="ScreenManage\ScreenName\XSetScreenName.h" />
+    <ClInclude Include="ScreenManage\SelectEquipment\XDelegateSelectEquipment.h" />
+    <ClInclude Include="ScreenManage\SelectEquipment\XSelectEquipment.h" />
+    <ClInclude Include="ScreenManage\SetBoard\XDelegateSetBoard.h" />
+    <ClInclude Include="ScreenManage\SetBoard\XSetBoard.h" />
+    <ClInclude Include="ScreenManage\SetColResoluation\XDelegateSetColResoluation.h" />
+    <ClInclude Include="ScreenManage\SetColResoluation\XSetColResoluation.h" />
+    <ClInclude Include="ScreenManage\SetRowResoluation\XDelegateSetRowResoluation.h" />
+    <ClInclude Include="ScreenManage\SetRowResoluation\XSetRowResoluation.h" />
+    <ClInclude Include="ScreenManage\SetScreenRange\XDelegateSetScreenRange.h" />
+    <ClInclude Include="ScreenManage\SetScreenRange\XSetScreenRange.h" />
+    <ClInclude Include="ScreenManage\TimedPolling\XDelegateTimedPollingDlg.h" />
+    <ClInclude Include="ScreenManage\TimedPolling\XTimedPollingDlg.h" />
+    <ClInclude Include="ScreenManage\AllInfo\XAllResulationInfo.h" />
+    <ClInclude Include="ScreenManage\AllInfo\XOldOrderInfo.h" />
+    <ClInclude Include="ScreenManage\AllInfo\XResulationInfo.h" />
+    <ClInclude Include="ScreenManage\AllInfo\XMenuScreenSetInfo.h" />
+    <ClInclude Include="ScreenManage\XSceneDataManage.h" />
+    <ClInclude Include="ScreenManage\AllInfo\XScreenMoveInfo.h" />
+    <ClInclude Include="ScreenManage\XScreenData.h" />
+    <ClInclude Include="ScreenManage\XSendData.h" />
+    <ClInclude Include="ScreenManage\AllInfo\XTimedPollingInfo.h" />
+    <ClInclude Include="UserManage\LoginDlg\LoginDlg.h" />
+    <ClInclude Include="UserManage\UserManageDlg\UserManageDlg.h" />
+    <ClInclude Include="HYXText\HYXText.h" />
+    <ClInclude Include="UserManage\UserPowerManageDlg\UserPowerManageDlg.h" />
+    <ClInclude Include="UserManage\XDataUserManage.h" />
+    <ClInclude Include="UserManage\XDelegateUserManage.h" />
+    <ClInclude Include="UserManage\XNodePowerInfo.h" />
+    <ClInclude Include="UserManage\XUserInfo.h" />
+    <ClInclude Include="UserManage\XUserManage.h" />
+    <ClInclude Include="VideoPlayer\XMultiVideoWindow.h" />
+    <ClInclude Include="VideoPlayer\XMultiVideoWindowFrame.h" />
+    <ClInclude Include="VideoPlayer\XMultiVideoWindowFrames.h" />
+    <ClInclude Include="VideoPlayer\XRTSP.h" />
+    <ClInclude Include="VideoPlayer\XRTSPHWND.h" />
+    <ClInclude Include="VideoPlayer\XVideoPlayer.h" />
+    <ClInclude Include="VideoPreviewPane\AllInfo\XPreviewRTSPInfo.h" />
+    <ClInclude Include="VideoPreviewPane\ChangeInputDlg\ChangeInputDlg.h" />
+    <ClInclude Include="VideoPreviewPane\ChangeRTSPAddrDlg\ChangeRTSPAddrDlg.h" />
+    <ClInclude Include="DataManage\XDataManage.h" />
+    <ClInclude Include="DataManage\XDelegateDataManage.h" />
+    <ClInclude Include="Handle\HandleIni.h" />
+    <ClInclude Include="Handle\HandleMutrix.h" />
+    <ClInclude Include="Handle\HandlePath.h" />
+    <ClInclude Include="IniManage\XDelegateIniManage.h" />
+    <ClInclude Include="IniManage\XIniManage.h" />
+    <ClInclude Include="InputSignalPane\AddExpandDlg\AddExpandDlg.h" />
+    <ClInclude Include="CatchError\CatchError.h" />
+    <ClInclude Include="Handle\HandleCode.h" />
+    <ClInclude Include="InputSignalPane\AddExpandDlg\XDelegateAddExpandDlg.h" />
+    <ClInclude Include="InputSignalPane\EditExpandDlg\EditExpandDlg.h" />
+    <ClInclude Include="InputSignalPane\EditExpandDlg\XDelegateEditExpandDlg.h" />
+    <ClInclude Include="InputSignalPane\OSDGrid\XDelegateOSDGrid.h" />
+    <ClInclude Include="InputSignalPane\SetOSDDlg\SetOSDDlg.h" />
+    <ClInclude Include="InputSignalPane\SetOSDDlg\XDelegateSetOSDDlg.h" />
+    <ClInclude Include="InputSignalPane\OSDGrid\XOSDGrid.h" />
+    <ClInclude Include="InputSignalPane\XDataInputSignalPane.h" />
+    <ClInclude Include="InputSignalPane\XDragInfo.h" />
+    <ClInclude Include="InputSignalPane\XDragWnd.h" />
+    <ClInclude Include="InputSignalPane\XExpandInfo.h" />
+    <ClInclude Include="InputSignalPane\XInputSignal.h" />
+    <ClInclude Include="InputSignalPane\XInputSignalExpand.h" />
+    <ClInclude Include="InputSignalPane\XInputSignalTreeCtrl.h" />
+    <ClInclude Include="InputSignalPane\XOSDInfo.h" />
+    <ClInclude Include="InputSignalPane\XSendDataInputSignal.h" />
+    <ClInclude Include="InternalManage\XBaseChildManage.h" />
+    <ClInclude Include="NetManage\XDelegateNetManage.h" />
+    <ClInclude Include="NetManage\XSocketUDP.h" />
+    <ClInclude Include="Handle\HandleCalculate.h" />
+    <ClInclude Include="InputSignalPane\XDelegateInputSignalPane.h" />
+    <ClInclude Include="InputSignalPane\XInputSignalPane.h" />
+    <ClInclude Include="InternalManage\XBaseInternalManage.h" />
+    <ClInclude Include="InternalManage\XConstantIM.h" />
+    <ClInclude Include="InternalManage\XDelegateInternalManage.h" />
+    <ClInclude Include="InternalManage\XInternalManage.h" />
+    <ClInclude Include="RibbonBarManage\XBaseRibbonBarManage.h" />
+    <ClInclude Include="RibbonBarManage\XDelegateRibbonBarManage.h" />
+    <ClInclude Include="ScreenManage\XDataScreenManage.h" />
+    <ClInclude Include="ScreenManage\XSendDataScreenManage.h" />
+    <ClInclude Include="TranslationManage\XBaseTranslationManage.h" />
+    <ClInclude Include="TranslationManage\XDelegateTranslationManage.h" />
+    <ClInclude Include="TranslationManage\XTranslationManage.h" />
+    <ClInclude Include="RibbonBar\XDelegateRibbonBar.h" />
+    <ClInclude Include="ScreenManage\XBaseScreenManage.h" />
+    <ClInclude Include="ScreenManage\XCalculateScreenManage.h" />
+    <ClInclude Include="NetManage\XBaseNetManage.h" />
+    <ClInclude Include="UDPWatchPane\XDelegateUDPWatchPane.h" />
+    <ClInclude Include="UDPWatchPane\XUDPWatchPane.h" />
+    <ClInclude Include="UDPWatchPane\XUDPWatchPaneToolBar.h" />
+    <ClInclude Include="VideoPlayer\videoinc.h" />
+    <ClInclude Include="VideoPlayer\VideoPlayerConstant.h" />
+    <ClInclude Include="VideoPreviewPane\AllInfo\XRTSPInfo.h" />
+    <ClInclude Include="VideoPreviewPane\XDataVideoPreviewPane.h" />
+    <ClInclude Include="VideoPreviewPane\XDelegateVideoPreviewPane.h" />
+    <ClInclude Include="VideoPreviewPane\AllInfo\XDeviceInfo.h" />
+    <ClInclude Include="VideoPreviewPane\XRTSPInfoDragWnd.h" />
+    <ClInclude Include="VideoPreviewPane\XSendDataVideoPreview.h" />
+    <ClInclude Include="VideoPreviewPane\XVideoPreviewContain.h" />
+    <ClInclude Include="VideoPreviewPane\XVideoPreviewFrame.h" />
+    <ClInclude Include="VideoPreviewPane\XVideoPreviewTextWnd.h" />
+    <ClInclude Include="VideoPreviewPane\XVideoPreviewVideoWnd.h" />
+    <ClInclude Include="VideoPreviewPane\XVideoPreviewPane.h" />
+    <ClInclude Include="VideoPreviewPane\ViewPreviewDlg\ViewPreviewDlg.h" />
+    <ClInclude Include="Button\XBtn.h" />
+    <ClInclude Include="XConstant.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Multiviewer.h" />
+    <ClInclude Include="MultiviewerDoc.h" />
+    <ClInclude Include="MultiviewerView.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="MessageBoxDlg\XDelegateMessageBoxDlg.h" />
+    <ClInclude Include="ScreenManage\XDelegateScreenManage.h" />
+    <ClInclude Include="XDelegateView.h" />
+    <ClInclude Include="RibbonBarManage\XRibbonBarManage.h" />
+    <ClInclude Include="RibbonBar\XRibbonBar.h" />
+    <ClInclude Include="MessageBoxDlg\XMessageBoxDlg.h" />
+    <ClInclude Include="ScreenManage\XScreenManage.h" />
+    <ClInclude Include="ScreenManage\XScreen.h" />
+    <ClInclude Include="ScreenManage\XSignal.h" />
+    <ClInclude Include="ScreenManage\XDrawScreenManage.h" />
+    <ClInclude Include="NetManage\XNetManage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutDlg\AboutDlg.cpp" />
+    <ClCompile Include="AboutDlg\XDelegateAboutDlg.cpp" />
+    <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="Handle\HandleListCtrl.cpp" />
+    <ClCompile Include="Handle\HandleShearPlate.cpp" />
+    <ClCompile Include="Handle\HandleVerification.cpp" />
+    <ClCompile Include="HYXGrid\HYXDelegateGrid.cpp" />
+    <ClCompile Include="HYXGrid\HYXGrid.cpp" />
+    <ClCompile Include="HYXGrid\HYXGridItem.cpp" />
+    <ClCompile Include="HYXGrid\HYXGridRow.cpp" />
+    <ClCompile Include="HYXInputNode\HYXDelegateInputNode.cpp" />
+    <ClCompile Include="HYXInputNode\HYXInputNode.cpp" />
+    <ClCompile Include="HYXInputNode\HYXTreeNode.cpp" />
+    <ClCompile Include="HYXInputNode\HYXTreeNodeItem.cpp" />
+    <ClCompile Include="HYXOutputNode\HYXDelegateOutputNode.cpp" />
+    <ClCompile Include="HYXOutputNode\HYXOutputNode.cpp" />
+    <ClCompile Include="HYXOutputNode\HYXVTreeNode.cpp" />
+    <ClCompile Include="HYXOutputNode\HYXVTreeNodeItem.cpp" />
+    <ClCompile Include="InputSignalPane\AddGroupDlg\XAddGroup.cpp" />
+    <ClCompile Include="InputSignalPane\AddGroupDlg\XDelegateAddGroup.cpp" />
+    <ClCompile Include="InputSignalPane\AttributeDlg\XAttributeDlg.cpp" />
+    <ClCompile Include="InputSignalPane\AttributeDlg\XDelegateAttributeDlg.cpp" />
+    <ClCompile Include="InputSignalPane\BorderOverlayDlg\XBorderOverlayDlg.cpp" />
+    <ClCompile Include="InputSignalPane\BorderOverlayDlg\XDelegateBorderOverlayDlg.cpp" />
+    <ClCompile Include="InputSignalPane\ChangeChanel\XChangeChanelDlg.cpp" />
+    <ClCompile Include="InputSignalPane\ChangeChanel\XDelegateChangeChanelDlg.cpp" />
+    <ClCompile Include="InputSignalPane\GroupNameDlg\XGroupName.cpp" />
+    <ClCompile Include="InputSignalPane\GroupNameDlg\XGroupName2.cpp" />
+    <ClCompile Include="InputSignalPane\InputSignalCutDlg\XDelegateInputSignalCutDlg.cpp" />
+    <ClCompile Include="InputSignalPane\InputSignalCutDlg\XInputSignalCutDlg.cpp" />
+    <ClCompile Include="InputSignalPane\IPStreamAddr\XDelegateStreamAddr.cpp" />
+    <ClCompile Include="InputSignalPane\IPStreamAddr\XStreamAddr.cpp" />
+    <ClCompile Include="InputSignalPane\PaneIPAddr\XDelegatePaneIPAddr.cpp" />
+    <ClCompile Include="InputSignalPane\PaneIPAddr\XPaneIPAddr.cpp" />
+    <ClCompile Include="InputSignalPane\SetEDIDDlg\XDelegateEDIDDlg.cpp" />
+    <ClCompile Include="InputSignalPane\SetEDIDDlg\XEDIDDlg.cpp" />
+    <ClCompile Include="InputSignalPane\SetAnotherNameDlg\XDelegateSetAnotherNameDlg.cpp" />
+    <ClCompile Include="InputSignalPane\SetAnotherNameDlg\XSetAnotherNameDlg.cpp" />
+    <ClCompile Include="InputSignalPane\UltraAttributeDlg\XDelegateUltraAttributeDlg.cpp" />
+    <ClCompile Include="InputSignalPane\UltraAttributeDlg\XUltraAttributeDlg.cpp" />
+    <ClCompile Include="InputSignalPane\XAnotherNameInfo.cpp" />
+    <ClCompile Include="InputSignalPane\XBorderOverlay.cpp" />
+    <ClCompile Include="InputSignalPane\XEDITInfo.cpp" />
+    <ClCompile Include="InputSignalPane\XInputGroup.cpp" />
+    <ClCompile Include="InputSignalPane\XInputInfoInGroup.cpp" />
+    <ClCompile Include="InputSignalPane\XPaneIPAddrInfo.cpp" />
+    <ClCompile Include="InputSignalPane\XSignalCutInfo.cpp" />
+    <ClCompile Include="InputSignalPane\XStreamAddrInfo.cpp" />
+    <ClCompile Include="InternalManage\AllInfo\XBitRateInfo.cpp" />
+    <ClCompile Include="InternalManage\AllInfo\XSelectBoardInfo.cpp" />
+    <ClCompile Include="InternalManage\MySplitButton\MySplitButton.cpp" />
+    <ClCompile Include="InternalManage\MyTableCtrl\XMyTabctrl.cpp" />
+    <ClCompile Include="InternalManage\NewView\XDelegateNewViewDlg.cpp" />
+    <ClCompile Include="InternalManage\NewView\XNewViewDlg.cpp" />
+    <ClCompile Include="InternalManage\PreviewBoardBitRate\XPreviewBoardBitRate.cpp" />
+    <ClCompile Include="InternalManage\PreviewBoardNet\XBoardNet.cpp" />
+    <ClCompile Include="InternalManage\PreviewBoardNet\XBoardNetInfo.cpp" />
+    <ClCompile Include="InternalManage\PreviewBoardNet\XDelegateBoardNet.cpp" />
+    <ClCompile Include="InternalManage\PreviewChild\XDelegatePreviewChild.cpp" />
+    <ClCompile Include="InternalManage\PreviewChild\XPreviewBoard.cpp" />
+    <ClCompile Include="InternalManage\PreviewChild\XPreviewBoardWnd.cpp" />
+    <ClCompile Include="InternalManage\PreviewChild\XPreviewChild.cpp" />
+    <ClCompile Include="InternalManage\ReNameTabCtrl\XReNameTabCtrl.cpp" />
+    <ClCompile Include="InternalManage\SetPreviewBoard\XDelegateSetPreviewBoard.cpp" />
+    <ClCompile Include="InternalManage\SetPreviewBoard\XSetPreviewBoard.cpp" />
+    <ClCompile Include="InternalManage\XDataInternalManage.cpp" />
+    <ClCompile Include="InternalManage\XSaveAllScene\XDelegateSaveAllScence.cpp" />
+    <ClCompile Include="InternalManage\XSaveAllScene\XSaveAllScence.cpp" />
+    <ClCompile Include="InternalManage\XSendDataOfPreviewBoard.cpp" />
+    <ClCompile Include="ListCtrl\XListCtrl.cpp" />
+    <ClCompile Include="PathManage\XBasePathManage.cpp" />
+    <ClCompile Include="PathManage\XPathManage.cpp" />
+    <ClCompile Include="ScenePane\ReName\XDelegateReName.cpp" />
+    <ClCompile Include="ScenePane\ReName\XReName.cpp" />
+    <ClCompile Include="ScenePane\XDataScenePane.cpp" />
+    <ClCompile Include="ScenePane\XDelegateScenePane.cpp" />
+    <ClCompile Include="ScenePane\XSceneGroupInfo.cpp" />
+    <ClCompile Include="ScenePane\XSceneInfo.cpp" />
+    <ClCompile Include="ScenePane\XScenePane.cpp" />
+    <ClCompile Include="ScenePane\XSceneTree.cpp" />
+    <ClCompile Include="ScreenManage\AllInfo\XInputType.cpp" />
+    <ClCompile Include="ScreenManage\AllInfo\XOutputInfo.cpp" />
+    <ClCompile Include="ScreenManage\AllInfo\XPaneNetInfo.cpp" />
+    <ClCompile Include="ScreenManage\AllInfo\XResulationHCutInfo.cpp" />
+    <ClCompile Include="ScreenManage\AllInfo\XResulationVCutInfo.cpp" />
+    <ClCompile Include="ScreenManage\AllInfo\XScreenColInfo.cpp" />
+    <ClCompile Include="ScreenManage\AllInfo\XScreenDataInfo.cpp" />
+    <ClCompile Include="ScreenManage\AllInfo\XScreenRetInfo.cpp" />
+    <ClCompile Include="ScreenManage\AllInfo\XScreenRowInfo.cpp" />
+    <ClCompile Include="ScreenManage\AllResulation\ResulationCut\XResulationCut.cpp" />
+    <ClCompile Include="ScreenManage\AllResulation\ResulationCut\XResulationVCut.cpp" />
+    <ClCompile Include="ScreenManage\AllResulation\XAllResulation.cpp" />
+    <ClCompile Include="ScreenManage\AllResulation\XDelegateAllResulation.cpp" />
+    <ClCompile Include="ScreenManage\Attributes\XDelegateScreenAttributes.cpp" />
+    <ClCompile Include="ScreenManage\Attributes\XScreenAttributes.cpp" />
+    <ClCompile Include="ScreenManage\BoardChild\CorrespondScreen\XCorrespondScreen.cpp" />
+    <ClCompile Include="ScreenManage\BoardChild\MyButton\CMyButton.cpp" />
+    <ClCompile Include="ScreenManage\BoardChild\ScreenSet\ScreenSetDlg.cpp" />
+    <ClCompile Include="ScreenManage\BoardChild\ScreenSet\XScreenInfo.cpp" />
+    <ClCompile Include="ScreenManage\BoardChild\ScreenSet\XScreenInfosWnd.cpp" />
+    <ClCompile Include="ScreenManage\BoardChild\ScreenSet\XScreenNumInfo.cpp" />
+    <ClCompile Include="ScreenManage\BoardChild\SetOSD\XSetOSD.cpp" />
+    <ClCompile Include="ScreenManage\BoardChild\XBoardChild.cpp" />
+    <ClCompile Include="ScreenManage\BoardChild\XDelegateBoardChild.cpp" />
+    <ClCompile Include="ScreenManage\BoardChild\XEquipmentInput.cpp" />
+    <ClCompile Include="ScreenManage\BoardChild\XEquipmentInputWnd.cpp" />
+    <ClCompile Include="ScreenManage\BoardChild\XEquipmentOutput.cpp" />
+    <ClCompile Include="ScreenManage\BoardChild\XEquipmentOutputWnd.cpp" />
+    <ClCompile Include="ScreenManage\ChangeInput\XChangeInput.cpp" />
+    <ClCompile Include="ScreenManage\ChangeInput\XDelegateChangeInput.cpp" />
+    <ClCompile Include="ScreenManage\ChangeScreen\XChangeScreen.cpp" />
+    <ClCompile Include="ScreenManage\ChangeScreen\XDelegateChangeScreen.cpp" />
+    <ClCompile Include="ScreenManage\DeleteScene\XDelegateDeleteScene.cpp" />
+    <ClCompile Include="ScreenManage\DeleteScene\XDeleteScene.cpp" />
+    <ClCompile Include="ScreenManage\MatrixAllResulation\XDelegateAllMatrixResolution.cpp" />
+    <ClCompile Include="ScreenManage\MatrixAllResulation\XMatrixAllResolution.cpp" />
+    <ClCompile Include="ScreenManage\MatrixAttributes\XDelegateMatrixScreenAttributes.cpp" />
+    <ClCompile Include="ScreenManage\MatrixAttributes\XMatrixScreenAttributes.cpp" />
+    <ClCompile Include="ScreenManage\MatrixResulation\XDelegateMatrixResolution.cpp" />
+    <ClCompile Include="ScreenManage\MatrixResulation\XMatrixResolution.cpp" />
+    <ClCompile Include="ScreenManage\Resolation\XDelegateResolution.cpp" />
+    <ClCompile Include="ScreenManage\Resolation\XResolution.cpp" />
+    <ClCompile Include="ScreenManage\RunOldOrder\XDelegateRunOldOrder.cpp" />
+    <ClCompile Include="ScreenManage\RunOldOrder\XRunOldOrder.cpp" />
+    <ClCompile Include="ScreenManage\Scence\XDelegateSaveScence.cpp" />
+    <ClCompile Include="ScreenManage\Scence\XSaveSecnce.cpp" />
+    <ClCompile Include="ScreenManage\ScreenMoveChange\XDelegateScreenMoveChangeDlg.cpp" />
+    <ClCompile Include="ScreenManage\ScreenMoveChange\XScreenMoveChangeDlg.cpp" />
+    <ClCompile Include="ScreenManage\ScreenMoveGrid\XDelegateScreenMoveGrid.cpp" />
+    <ClCompile Include="ScreenManage\ScreenMoveGrid\XScreenMoveGrid.cpp" />
+    <ClCompile Include="ScreenManage\ScreenMove\XDelegateScreenMoveDlg.cpp" />
+    <ClCompile Include="ScreenManage\ScreenMove\XScreenMoveDlg.cpp" />
+    <ClCompile Include="ScreenManage\ScreenName\XDelegateSetScreenName.cpp" />
+    <ClCompile Include="ScreenManage\ScreenName\XSetScreenName.cpp" />
+    <ClCompile Include="ScreenManage\SelectEquipment\XDelegateSelectEquipment.cpp" />
+    <ClCompile Include="ScreenManage\SelectEquipment\XSelectEquipment.cpp" />
+    <ClCompile Include="ScreenManage\SetBoard\XDelegateSetBoard.cpp" />
+    <ClCompile Include="ScreenManage\SetBoard\XSetBoard.cpp" />
+    <ClCompile Include="ScreenManage\SetColResoluation\XDelegateSetColResoluation.cpp" />
+    <ClCompile Include="ScreenManage\SetColResoluation\XSetColResoluation.cpp" />
+    <ClCompile Include="ScreenManage\SetRowResoluation\XDelegateSetRowResoluation.cpp" />
+    <ClCompile Include="ScreenManage\SetRowResoluation\XSetRowResoluation.cpp" />
+    <ClCompile Include="ScreenManage\SetScreenRange\XDelegateSetScreenRange.cpp" />
+    <ClCompile Include="ScreenManage\SetScreenRange\XSetScreenRange.cpp" />
+    <ClCompile Include="ScreenManage\TimedPolling\XDelegateTimedPollingDlg.cpp" />
+    <ClCompile Include="ScreenManage\TimedPolling\XTimedPollingDlg.cpp" />
+    <ClCompile Include="ScreenManage\AllInfo\XAllResulationInfo.cpp" />
+    <ClCompile Include="ScreenManage\AllInfo\XOldOrder.cpp" />
+    <ClCompile Include="ScreenManage\AllInfo\XResulationInfo.cpp" />
+    <ClCompile Include="ScreenManage\AllInfo\XMenuScreenSetInfo.cpp" />
+    <ClCompile Include="ScreenManage\XSceneDataManage.cpp" />
+    <ClCompile Include="ScreenManage\AllInfo\XScreenMoveInfo.cpp" />
+    <ClCompile Include="ScreenManage\XScreenData.cpp" />
+    <ClCompile Include="ScreenManage\XSendData.cpp" />
+    <ClCompile Include="ScreenManage\AllInfo\XTimedPollingInfo.cpp" />
+    <ClCompile Include="UserManage\LoginDlg\LoginDlg.cpp" />
+    <ClCompile Include="UserManage\UserManageDlg\UserManageDlg.cpp" />
+    <ClCompile Include="HYXText\HYXText.cpp" />
+    <ClCompile Include="UserManage\UserPowerManageDlg\UserPowerManageDlg.cpp" />
+    <ClCompile Include="UserManage\XDataUserManage.cpp" />
+    <ClCompile Include="UserManage\XDelegateUserManage.cpp" />
+    <ClCompile Include="UserManage\XNodePowerInfo.cpp" />
+    <ClCompile Include="UserManage\XUserInfo.cpp" />
+    <ClCompile Include="UserManage\XUserManage.cpp" />
+    <ClCompile Include="VideoPlayer\XMultiVideoWindow.cpp" />
+    <ClCompile Include="VideoPlayer\XMultiVideoWindowFrame.cpp" />
+    <ClCompile Include="VideoPlayer\XMultiVideoWindowFrames.cpp" />
+    <ClCompile Include="VideoPlayer\XRTSP.cpp" />
+    <ClCompile Include="VideoPlayer\XRTSPHWND.cpp" />
+    <ClCompile Include="VideoPlayer\XVideoPlayer.cpp" />
+    <ClCompile Include="VideoPreviewPane\AllInfo\XPreviewRTSPInfo.cpp" />
+    <ClCompile Include="VideoPreviewPane\ChangeInputDlg\ChangeInputDlg.cpp" />
+    <ClCompile Include="VideoPreviewPane\ChangeRTSPAddrDlg\ChangeRTSPAddrDlg.cpp" />
+    <ClCompile Include="DataManage\XDataManage.cpp" />
+    <ClCompile Include="DataManage\XDelegateDataManage.cpp" />
+    <ClCompile Include="Handle\HandleIni.cpp" />
+    <ClCompile Include="Handle\HandleMutrix.cpp" />
+    <ClCompile Include="Handle\HandlePath.cpp" />
+    <ClCompile Include="IniManage\XDelegateIniManage.cpp" />
+    <ClCompile Include="IniManage\XIniManage.cpp" />
+    <ClCompile Include="InputSignalPane\AddExpandDlg\AddExpandDlg.cpp" />
+    <ClCompile Include="CatchError\CatchError.cpp" />
+    <ClCompile Include="Handle\HandleCode.cpp" />
+    <ClCompile Include="InputSignalPane\AddExpandDlg\XDelegateAddExpandDlg.cpp" />
+    <ClCompile Include="InputSignalPane\EditExpandDlg\EditExpandDlg.cpp" />
+    <ClCompile Include="InputSignalPane\EditExpandDlg\XDelegateEditExpandDlg.cpp" />
+    <ClCompile Include="InputSignalPane\OSDGrid\XDelegateOSDGrid.cpp" />
+    <ClCompile Include="InputSignalPane\SetOSDDlg\SetOSDDlg.cpp" />
+    <ClCompile Include="InputSignalPane\SetOSDDlg\XDelegateSetOSDDlg.cpp" />
+    <ClCompile Include="InputSignalPane\OSDGrid\XOSDGrid.cpp" />
+    <ClCompile Include="InputSignalPane\XDataInputSignalPane.cpp" />
+    <ClCompile Include="InputSignalPane\XDragInfo.cpp" />
+    <ClCompile Include="InputSignalPane\XDragWnd.cpp" />
+    <ClCompile Include="InputSignalPane\XExpandInfo.cpp" />
+    <ClCompile Include="InputSignalPane\XInputSignal.cpp" />
+    <ClCompile Include="InputSignalPane\XInputSignalExpand.cpp" />
+    <ClCompile Include="InputSignalPane\XInputSignalTreeCtrl.cpp" />
+    <ClCompile Include="InputSignalPane\XOSDInfo.cpp" />
+    <ClCompile Include="InputSignalPane\XSendDataInputSignal.cpp" />
+    <ClCompile Include="InternalManage\XBaseChildManage.cpp" />
+    <ClCompile Include="NetManage\XDelegateNetManage.cpp" />
+    <ClCompile Include="NetManage\XSocketUDP.cpp" />
+    <ClCompile Include="Handle\HandleCalculate.cpp" />
+    <ClCompile Include="InputSignalPane\XDelegateInputSignalPane.cpp" />
+    <ClCompile Include="InputSignalPane\XInputSignalPane.cpp" />
+    <ClCompile Include="InternalManage\XBaseInternalManage.cpp" />
+    <ClCompile Include="InternalManage\XConstantIM.cpp" />
+    <ClCompile Include="InternalManage\XDelegateInternalManage.cpp" />
+    <ClCompile Include="InternalManage\XInternalManage.cpp" />
+    <ClCompile Include="RibbonBarManage\XBaseRibbonBarManage.cpp" />
+    <ClCompile Include="RibbonBarManage\XDelegateRibbonBarManage.cpp" />
+    <ClCompile Include="ScreenManage\XDataScreenManage.cpp" />
+    <ClCompile Include="ScreenManage\XSendDataScreenManage.cpp" />
+    <ClCompile Include="TranslationManage\XBaseTranslationManage.cpp" />
+    <ClCompile Include="TranslationManage\XDelegateTranslationManage.cpp" />
+    <ClCompile Include="TranslationManage\XTranslationManage.cpp" />
+    <ClCompile Include="RibbonBar\XDelegateRibbonBar.cpp" />
+    <ClCompile Include="ScreenManage\XBaseScreenManage.cpp" />
+    <ClCompile Include="ScreenManage\XCalculateScreenManage.cpp" />
+    <ClCompile Include="NetManage\XBaseNetManage.cpp" />
+    <ClCompile Include="UDPWatchPane\XDelegateUDPWatchPane.cpp" />
+    <ClCompile Include="UDPWatchPane\XUDPWatchPane.cpp" />
+    <ClCompile Include="UDPWatchPane\XUDPWatchPaneToolBar.cpp" />
+    <ClCompile Include="VideoPlayer\VideoPlayerConstant.cpp" />
+    <ClCompile Include="VideoPreviewPane\AllInfo\XRTSPInfo.cpp" />
+    <ClCompile Include="VideoPreviewPane\XDataVideoPreviewPane.cpp" />
+    <ClCompile Include="VideoPreviewPane\XDelegateVideoPreviewPane.cpp" />
+    <ClCompile Include="VideoPreviewPane\AllInfo\XDeviceInfo.cpp" />
+    <ClCompile Include="VideoPreviewPane\XRTSPInfoDragWnd.cpp" />
+    <ClCompile Include="VideoPreviewPane\XSendDataVideoPreview.cpp" />
+    <ClCompile Include="VideoPreviewPane\XVideoPreviewContain.cpp" />
+    <ClCompile Include="VideoPreviewPane\XVideoPreviewFrame.cpp" />
+    <ClCompile Include="VideoPreviewPane\XVideoPreviewTextWnd.cpp" />
+    <ClCompile Include="VideoPreviewPane\XVideoPreviewVideoWnd.cpp" />
+    <ClCompile Include="VideoPreviewPane\XVideoPreviewPane.cpp" />
+    <ClCompile Include="VideoPreviewPane\ViewPreviewDlg\ViewPreviewDlg.cpp" />
+    <ClCompile Include="Button\XBtn.cpp" />
+    <ClCompile Include="XConstant.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="Multiviewer.cpp" />
+    <ClCompile Include="MultiviewerDoc.cpp" />
+    <ClCompile Include="MultiviewerView.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="MessageBoxDlg\XDelegateMessageBoxDlg.cpp" />
+    <ClCompile Include="ScreenManage\XDelegateScreenManage.cpp" />
+    <ClCompile Include="XDelegateView.cpp" />
+    <ClCompile Include="RibbonBarManage\XRibbonBarManage.cpp" />
+    <ClCompile Include="RibbonBar\XRibbonBar.cpp" />
+    <ClCompile Include="MessageBoxDlg\XMessageBoxDlg.cpp" />
+    <ClCompile Include="ScreenManage\XScreenManage.cpp" />
+    <ClCompile Include="ScreenManage\XScreen.cpp" />
+    <ClCompile Include="ScreenManage\XSignal.cpp" />
+    <ClCompile Include="ScreenManage\XDrawScreenManage.cpp" />
+    <ClCompile Include="NetManage\XNetManage.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Multiviewer.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Multiviewer.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,1718 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\buttons.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\filelarge.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\filesmall.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\main.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\writelarge.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\writesmall.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Multiviewer.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MultiviewerDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Multiviewer.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\normal.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\select.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\layer.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\screen.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Input_0.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Input_1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\expand.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\move.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbarsignalcontrol.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\temperature.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\temperature.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\about.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\AVCIT.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbarudpwatchpane.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\layer1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\layer2.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bul.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\back.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\blue.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon2.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\chip.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\pan.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\4k.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\4K1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\14.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\new.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\save.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\IP.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\IP1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon5.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\IP4K.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\IP4K1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\folder_24px.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\scene_24px.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\folder_24px_12.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\View.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\view1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\view2.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Multiviewer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiviewerDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiviewerView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XConstant.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XDelegateView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\XBaseInternalManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\XDelegateInternalManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\XInternalManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TranslationManage\XBaseTranslationManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TranslationManage\XDelegateTranslationManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TranslationManage\XTranslationManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RibbonBar\XRibbonBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RibbonBar\XDelegateRibbonBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\XConstantIM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageBoxDlg\XMessageBoxDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageBoxDlg\XDelegateMessageBoxDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\XBaseScreenManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\XScreenManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\XDelegateScreenManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\XDataScreenManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Handle\HandleCalculate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\XScreen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\XSignal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\XCalculateScreenManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\XDrawScreenManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Handle\HandleCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetManage\XBaseNetManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetManage\XNetManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetManage\XSocketUDP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetManage\XDelegateNetManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CatchError\CatchError.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\XBaseChildManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Handle\HandleIni.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Handle\HandlePath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RibbonBarManage\XBaseRibbonBarManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RibbonBarManage\XDelegateRibbonBarManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RibbonBarManage\XRibbonBarManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IniManage\XIniManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IniManage\XDelegateIniManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\XSendDataScreenManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManage\XDataManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManage\XDelegateDataManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Handle\HandleMutrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutDlg\AboutDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutDlg\XDelegateAboutDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\AddExpandDlg\AddExpandDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\AddExpandDlg\XDelegateAddExpandDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\EditExpandDlg\EditExpandDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\EditExpandDlg\XDelegateEditExpandDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\OSDGrid\XDelegateOSDGrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\OSDGrid\XOSDGrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\SetOSDDlg\SetOSDDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\SetOSDDlg\XDelegateSetOSDDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\XDataInputSignalPane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\XDelegateInputSignalPane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\XDragWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\XInputSignal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\XInputSignalExpand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\XInputSignalPane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\XInputSignalTreeCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\XSendDataInputSignal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPWatchPane\XUDPWatchPane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPWatchPane\XDelegateUDPWatchPane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPWatchPane\XUDPWatchPaneToolBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPreviewPane\XDelegateVideoPreviewPane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPreviewPane\XVideoPreviewPane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPreviewPane\XVideoPreviewFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPreviewPane\XDataVideoPreviewPane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPreviewPane\XVideoPreviewVideoWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPreviewPane\XVideoPreviewTextWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPlayer\videoinc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPlayer\VideoPlayerConstant.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPreviewPane\XVideoPreviewContain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPreviewPane\ChangeRTSPAddrDlg\ChangeRTSPAddrDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManage\XUserManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManage\XUserInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManage\XDelegateUserManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManage\XDataUserManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManage\LoginDlg\LoginDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManage\UserManageDlg\UserManageDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrl\XListCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Handle\HandleListCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManage\UserPowerManageDlg\UserPowerManageDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HYXText\HYXText.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HYXInputNode\HYXTreeNodeItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HYXInputNode\HYXDelegateInputNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HYXInputNode\HYXInputNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HYXInputNode\HYXTreeNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HYXOutputNode\HYXDelegateOutputNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HYXOutputNode\HYXOutputNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HYXOutputNode\HYXVTreeNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HYXOutputNode\HYXVTreeNodeItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManage\XNodePowerInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPreviewPane\ViewPreviewDlg\ViewPreviewDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\Resolation\XResolution.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\Resolation\XDelegateResolution.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\Scence\XDelegateSaveScence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\Scence\XSaveScence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PathManage\XBasePathManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PathManage\XPathManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\InputSignalCutDlg\XDelegateInputSignalCutDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\InputSignalCutDlg\XInputSignalCutDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\ChangeInput\XChangeInput.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\ChangeInput\XDelegateChangeInput.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\BorderOverlayDlg\XBorderOverlayDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\BorderOverlayDlg\XDelegateBorderOverlayDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\XBorderOverlay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\ScreenMove\XDelegateScreenMoveDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\ScreenMove\XScreenMoveDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\ScreenMoveGrid\XScreenMoveGrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\ScreenMoveGrid\XDelegateScreenMoveGrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\XSceneDataManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\XSendData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\AttributeDlg\XAttributeDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\AttributeDlg\XDelegateAttributeDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\SetEDIDDlg\XDelegateEDIDDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\SetEDIDDlg\XEDIDDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\Attributes\XDelegateScreenAttributes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\Attributes\XScreenAttributes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\TimedPolling\XDelegateTimedPollingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\TimedPolling\XTimedPollingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\SetAnotherNameDlg\XDelegateSetAnotherNameDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\SetAnotherNameDlg\XSetAnotherNameDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\DeleteScene\XDelegateDeleteScene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\DeleteScene\XDeleteScene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\AllResulation\XAllResulation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\AllResulation\XDelegateAllResulation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\RunOldOrder\XDelegateRunOldOrder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\RunOldOrder\XRunOldOrder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\AllInfo\XAllResulationInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\AllInfo\XTimedPollingInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\AllInfo\XScreenMoveInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\AllInfo\XResulationInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\AllInfo\XOldOrderInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\XEDIDInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\XDragInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\XExpandInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\XOSDInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\XSignalCutInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\ChangeScreen\XChangeScreen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\ChangeScreen\XDelegateChangeScreen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\NewView\XDelegateNewViewDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\NewView\XNewViewDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\ScreenMoveChange\XDelegateScreenMoveChangeDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\ScreenMoveChange\XScreenMoveChangeDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Button\XBtn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPlayer\XMultiVideoWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPlayer\XMultiVideoWindowFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPlayer\XMultiVideoWindowFrames.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPreviewPane\ChangeInputDlg\ChangeInputDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPreviewPane\XRTSPInfoDragWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\ChangeChanel\XChangeChanelDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\ChangeChanel\XDelegateChangeChanelDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\UltraAttributeDlg\XDelegateUltraAttributeDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\UltraAttributeDlg\XUltraAttributeDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenePane\XDelegateScenePane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenePane\XScenePane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\SelectEquipment\XDelegateSelectEquipment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\SelectEquipment\XSelectEquipment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\SetBoard\XDelegateSetBoard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\SetBoard\XSetBoard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\BoardChild\XBoardChild.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\BoardChild\XDelegateBoardChild.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\BoardChild\XEquipmentInput.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\BoardChild\XEquipmentOutput.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\BoardChild\XEquipmentInputWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\BoardChild\XEquipmentOutputWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\BoardChild\CorrespondScreen\XCorrespondScreen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\SetScreenRange\XDelegateSetScreenRange.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\SetScreenRange\XSetScreenRange.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\XScreenData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\BoardChild\SetOSD\XSetOSD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\BoardChild\ScreenSet\ScreenSetDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\BoardChild\ScreenSet\XScreenInfosWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\BoardChild\ScreenSet\XScreenInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\BoardChild\MyButton\CMyButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPlayer\XRTSP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPlayer\XRTSPHWND.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPlayer\XVideoPlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\AllInfo\XMenuScreenSetInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\AllInfo\XOutputInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\BoardChild\ScreenSet\XScreenNumInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\XAnotherNameInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\AllInfo\XScreenDataInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\IPStreamAddr\XDelegateStreamAddr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\IPStreamAddr\XStreamAddr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\PaneIPAddr\XDelegatePaneIPAddr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\PaneIPAddr\XPaneIPAddr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\XPaneIPAddrInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\XStreamAddrInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\AllInfo\XPaneNetInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPreviewPane\AllInfo\XDeviceInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPreviewPane\AllInfo\XRTSPInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPreviewPane\XSendDataVideoPreview.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPreviewPane\AllInfo\XPreviewRTSPInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\AllInfo\XScreenRetInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Handle\HandleVerification.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenePane\XSceneTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenePane\XDataScenePane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\AddGroupDlg\XAddGroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\AddGroupDlg\XDelegateAddGroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\GroupNameDlg\XGroupName.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\GroupNameDlg\XGroupName2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\XInputGroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSignalPane\XInputInfoInGroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\SetPreviewBoard\XSetPreviewBoard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\SetPreviewBoard\XDelegateSetPreviewBoard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\PreviewChild\XPreviewChild.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\PreviewChild\XDelegatePreviewChild.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\PreviewChild\XPreviewBoardWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\PreviewChild\XPreviewBoard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\MySplitButton\MySplitButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\PreviewBoardNet\XBoardNet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\PreviewBoardNet\XDelegateBoardNet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\PreviewBoardNet\XBoardNetInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\XSendDataOfPreviewBoard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\AllInfo\XSelectBoardInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\XDataInternalManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\PreviewBoardBitRate\XPreviewBoardBitRate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\AllInfo\XBitRateInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\MatrixResulation\XDelegateMatrixResolution.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\MatrixResulation\XMatrixResolution.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\MatrixAllResulation\XDelegateAllMatrixResolution.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\MatrixAllResulation\XMatrixAllResolution.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\MatrixAttributes\XDelegateMatrixScreenAttributes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\MatrixAttributes\XMatrixScreenAttributes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenePane\XSceneInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\ScreenName\XDelegateSetScreenName.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\ScreenName\XSetScreenName.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenePane\XSceneGroupInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenePane\ReName\XDelegateReName.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenePane\ReName\XReName.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\XSaveAllScene\XSaveAllScence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\XSaveAllScene\XDelegateSaveAllScence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HYXGrid\HYXDelegateGrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HYXGrid\HYXGrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HYXGrid\HYXGridItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HYXGrid\HYXGridRow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\AllResulation\ResulationCut\XResulationCut.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\AllInfo\XResulationHCutInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\AllInfo\XResulationVCutInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\AllResulation\ResulationCut\XResulationVCut.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\AllInfo\XInputType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\MyTableCtrl\XMyTabctrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalManage\ReNameTabCtrl\XReNameTabCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Handle\HandleShearPlate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\SetRowResoluation\XSetRowResoluation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\SetRowResoluation\XDelegateSetRowResoluation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\AllInfo\XScreenColInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\AllInfo\XScreenRowInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\SetColResoluation\XDelegateSetColResoluation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManage\SetColResoluation\XSetColResoluation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Multiviewer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiviewerDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiviewerView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XConstant.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XDelegateView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\XBaseInternalManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\XDelegateInternalManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\XInternalManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TranslationManage\XBaseTranslationManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TranslationManage\XDelegateTranslationManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TranslationManage\XTranslationManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RibbonBar\XRibbonBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RibbonBar\XDelegateRibbonBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\XConstantIM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageBoxDlg\XMessageBoxDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageBoxDlg\XDelegateMessageBoxDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\XBaseScreenManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\XScreenManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\XDelegateScreenManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\XDataScreenManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Handle\HandleCalculate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\XScreen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\XSignal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\XCalculateScreenManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\XDrawScreenManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Handle\HandleCode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetManage\XBaseNetManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetManage\XNetManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetManage\XSocketUDP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetManage\XDelegateNetManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CatchError\CatchError.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\XBaseChildManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Handle\HandleIni.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Handle\HandlePath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RibbonBarManage\XBaseRibbonBarManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RibbonBarManage\XDelegateRibbonBarManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RibbonBarManage\XRibbonBarManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IniManage\XIniManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IniManage\XDelegateIniManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\XSendDataScreenManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManage\XDataManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManage\XDelegateDataManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Handle\HandleMutrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutDlg\AboutDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutDlg\XDelegateAboutDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\AddExpandDlg\AddExpandDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\AddExpandDlg\XDelegateAddExpandDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\EditExpandDlg\EditExpandDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\EditExpandDlg\XDelegateEditExpandDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\OSDGrid\XDelegateOSDGrid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\OSDGrid\XOSDGrid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\SetOSDDlg\SetOSDDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\SetOSDDlg\XDelegateSetOSDDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\XDataInputSignalPane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\XDelegateInputSignalPane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\XDragWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\XInputSignal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\XInputSignalExpand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\XInputSignalPane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\XInputSignalTreeCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\XSendDataInputSignal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPWatchPane\XUDPWatchPane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPWatchPane\XDelegateUDPWatchPane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPWatchPane\XUDPWatchPaneToolBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPreviewPane\XDelegateVideoPreviewPane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPreviewPane\XVideoPreviewPane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPreviewPane\XVideoPreviewFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPreviewPane\XDataVideoPreviewPane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPreviewPane\XVideoPreviewVideoWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPreviewPane\XVideoPreviewTextWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPlayer\VideoPlayerConstant.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPreviewPane\XVideoPreviewContain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPreviewPane\ChangeRTSPAddrDlg\ChangeRTSPAddrDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManage\XUserInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManage\XUserManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManage\XDelegateUserManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManage\XDataUserManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManage\LoginDlg\LoginDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManage\UserManageDlg\UserManageDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrl\XListCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Handle\HandleListCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManage\UserPowerManageDlg\UserPowerManageDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HYXText\HYXText.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HYXInputNode\HYXDelegateInputNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HYXInputNode\HYXInputNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HYXInputNode\HYXTreeNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HYXInputNode\HYXTreeNodeItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HYXOutputNode\HYXDelegateOutputNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HYXOutputNode\HYXOutputNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HYXOutputNode\HYXVTreeNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HYXOutputNode\HYXVTreeNodeItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManage\XNodePowerInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPreviewPane\ViewPreviewDlg\ViewPreviewDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\Resolation\XResolution.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\Resolation\XDelegateResolution.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\Scence\XDelegateSaveScence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\Scence\XSaveSecnce.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PathManage\XBasePathManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PathManage\XPathManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\InputSignalCutDlg\XDelegateInputSignalCutDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\InputSignalCutDlg\XInputSignalCutDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\ChangeInput\XChangeInput.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\ChangeInput\XDelegateChangeInput.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\BorderOverlayDlg\XBorderOverlayDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\BorderOverlayDlg\XDelegateBorderOverlayDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\XBorderOverlay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\ScreenMove\XDelegateScreenMoveDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\ScreenMove\XScreenMoveDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\ScreenMoveGrid\XScreenMoveGrid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\ScreenMoveGrid\XDelegateScreenMoveGrid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\XSceneDataManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\XSendData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\AttributeDlg\XAttributeDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\AttributeDlg\XDelegateAttributeDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\SetEDIDDlg\XDelegateEDIDDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\SetEDIDDlg\XEDIDDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\Attributes\XDelegateScreenAttributes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\TimedPolling\XDelegateTimedPollingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\TimedPolling\XTimedPollingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\SetAnotherNameDlg\XDelegateSetAnotherNameDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\SetAnotherNameDlg\XSetAnotherNameDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\DeleteScene\XDelegateDeleteScene.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\DeleteScene\XDeleteScene.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\AllResulation\XAllResulation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\AllResulation\XDelegateAllResulation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\RunOldOrder\XDelegateRunOldOrder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\RunOldOrder\XRunOldOrder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\AllInfo\XAllResulationInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\AllInfo\XTimedPollingInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\AllInfo\XScreenMoveInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\AllInfo\XResulationInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\AllInfo\XOldOrder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\XDragInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\XEDITInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\XExpandInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\XOSDInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\XSignalCutInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\ChangeScreen\XChangeScreen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\ChangeScreen\XDelegateChangeScreen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\NewView\XDelegateNewViewDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\NewView\XNewViewDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\ScreenMoveChange\XDelegateScreenMoveChangeDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\ScreenMoveChange\XScreenMoveChangeDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Button\XBtn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPlayer\XMultiVideoWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPlayer\XMultiVideoWindowFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPlayer\XMultiVideoWindowFrames.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPreviewPane\ChangeInputDlg\ChangeInputDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPreviewPane\XRTSPInfoDragWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\ChangeChanel\XChangeChanelDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\ChangeChanel\XDelegateChangeChanelDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\UltraAttributeDlg\XDelegateUltraAttributeDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\UltraAttributeDlg\XUltraAttributeDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenePane\XDelegateScenePane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenePane\XScenePane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\SelectEquipment\XDelegateSelectEquipment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\SelectEquipment\XSelectEquipment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\SetBoard\XDelegateSetBoard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\SetBoard\XSetBoard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\BoardChild\XBoardChild.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\BoardChild\XDelegateBoardChild.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\BoardChild\XEquipmentInput.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\BoardChild\XEquipmentOutput.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\BoardChild\XEquipmentInputWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\BoardChild\XEquipmentOutputWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\BoardChild\CorrespondScreen\XCorrespondScreen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\SetScreenRange\XDelegateSetScreenRange.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\SetScreenRange\XSetScreenRange.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\XScreenData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\BoardChild\SetOSD\XSetOSD.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\BoardChild\ScreenSet\ScreenSetDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\BoardChild\ScreenSet\XScreenInfosWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\BoardChild\ScreenSet\XScreenInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\BoardChild\MyButton\CMyButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPlayer\XRTSP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPlayer\XRTSPHWND.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPlayer\XVideoPlayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\AllInfo\XMenuScreenSetInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\AllInfo\XOutputInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\BoardChild\ScreenSet\XScreenNumInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\XAnotherNameInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\AllInfo\XScreenDataInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\IPStreamAddr\XDelegateStreamAddr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\IPStreamAddr\XStreamAddr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\PaneIPAddr\XDelegatePaneIPAddr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\PaneIPAddr\XPaneIPAddr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\XPaneIPAddrInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\XStreamAddrInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\AllInfo\XPaneNetInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPreviewPane\AllInfo\XDeviceInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPreviewPane\AllInfo\XRTSPInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPreviewPane\XSendDataVideoPreview.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPreviewPane\AllInfo\XPreviewRTSPInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\Attributes\XScreenAttributes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\AllInfo\XScreenRetInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Handle\HandleVerification.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenePane\XSceneTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenePane\XDataScenePane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\AddGroupDlg\XAddGroup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\AddGroupDlg\XDelegateAddGroup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\GroupNameDlg\XGroupName.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\GroupNameDlg\XGroupName2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\XInputGroup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSignalPane\XInputInfoInGroup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\SetPreviewBoard\XSetPreviewBoard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\SetPreviewBoard\XDelegateSetPreviewBoard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\PreviewChild\XPreviewChild.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\PreviewChild\XDelegatePreviewChild.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\PreviewChild\XPreviewBoardWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\PreviewChild\XPreviewBoard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\MySplitButton\MySplitButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\PreviewBoardNet\XBoardNet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\PreviewBoardNet\XDelegateBoardNet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\PreviewBoardNet\XBoardNetInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\XSendDataOfPreviewBoard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\AllInfo\XSelectBoardInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\XDataInternalManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\PreviewBoardBitRate\XPreviewBoardBitRate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\AllInfo\XBitRateInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\MatrixResulation\XDelegateMatrixResolution.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\MatrixResulation\XMatrixResolution.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\MatrixAllResulation\XDelegateAllMatrixResolution.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\MatrixAllResulation\XMatrixAllResolution.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\MatrixAttributes\XDelegateMatrixScreenAttributes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\MatrixAttributes\XMatrixScreenAttributes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenePane\XSceneInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\ScreenName\XDelegateSetScreenName.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\ScreenName\XSetScreenName.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenePane\XSceneGroupInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenePane\ReName\XDelegateReName.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenePane\ReName\XReName.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\XSaveAllScene\XSaveAllScence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\XSaveAllScene\XDelegateSaveAllScence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HYXGrid\HYXDelegateGrid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HYXGrid\HYXGrid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HYXGrid\HYXGridItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HYXGrid\HYXGridRow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\AllResulation\ResulationCut\XResulationCut.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\AllInfo\XResulationHCutInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\AllInfo\XResulationVCutInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\AllResulation\ResulationCut\XResulationVCut.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\AllInfo\XInputType.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\MyTableCtrl\XMyTabctrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalManage\ReNameTabCtrl\XReNameTabCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Handle\HandleShearPlate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\SetRowResoluation\XSetRowResoluation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\SetRowResoluation\XDelegateSetRowResoluation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\AllInfo\XScreenColInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\AllInfo\XScreenRowInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\SetColResoluation\XDelegateSetColResoluation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManage\SetColResoluation\XSetColResoluation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Multiviewer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

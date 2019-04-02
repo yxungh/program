@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5A783F35-66DE-4698-9452-6DA60178CB42}</ProjectGuid>
+    <RootNamespace>Optical</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\bin\</OutDir>
+    <TargetName>Manage</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\XResult;.\XChildDlg\XLoginLoad;.\XListCtrl;.\XChildDlg\XPowerManage\XUserManage;.\XJson;.\XText;.\XChildDlg\XSetNet;.\XChildDlg\XHostConfig;.\XChildDlg\XPowerManage;.\XToolBar;.\XStatusBar;.\XChildDlg\XLogin;.\XChildDlg\XAbout;.\XData;.\XNet\UDP;.\XMessageBox;.\XTranslation;.\XButton;.\XConstant;.\XDialog;.\XHandle;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\XChildDlg\XLoginLoad;.\XListCtrl;.\XChildDlg\XPowerManage\XUserManage;.\XChildDlg\XLogin;.\XText;.\XChildDlg\XSetNet;.\XChildDlg\XHostConfig;.\XChildDlg\XPowerManage;.\XToolBar;.\XStatusBar;.\XChildDlg\XAbout;.\XData;.\XNet\UDP;.\XMessageBox;.\XButton;.\XConstant;.\XDialog;.\XHandle;.\XTranslation;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\AVCIT.bmp" />
+    <None Include="res\Optical.ico" />
+    <None Include="res\Optical.rc2" />
+    <None Include="XJson\json_internalarray.inl" />
+    <None Include="XJson\json_internalmap.inl" />
+    <None Include="XJson\json_valueiterator.inl" />
+    <None Include="XJson\sconscript" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Optical.h" />
+    <ClInclude Include="OpticalDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="XButton\XBtn.h" />
+    <ClInclude Include="XChildDlg\XAbout\AboutDlg.h" />
+    <ClInclude Include="XChildDlg\XHostConfig\XDelegateHostConfig.h" />
+    <ClInclude Include="XChildDlg\XHostConfig\XHostConfig.h" />
+    <ClInclude Include="XChildDlg\XLoginLoad\XLoginLoad.h" />
+    <ClInclude Include="XChildDlg\XLogin\XDelegateLogin.h" />
+    <ClInclude Include="XChildDlg\XLogin\XLogin.h" />
+    <ClInclude Include="XChildDlg\XPowerManage\XPowerManageItem.h" />
+    <ClInclude Include="XChildDlg\XPowerManage\XDelegatePowerManage.h" />
+    <ClInclude Include="XChildDlg\XPowerManage\XPowerManage.h" />
+    <ClInclude Include="XChildDlg\XPowerManage\XUserManage\XDelegateUserManage.h" />
+    <ClInclude Include="XResult\XLoginInfo.h" />
+    <ClInclude Include="XChildDlg\XPowerManage\XUserManage\XUserManage.h" />
+    <ClInclude Include="XChildDlg\XSetNet\XDelegateSetNet.h" />
+    <ClInclude Include="XChildDlg\XSetNet\XSetNet.h" />
+    <ClInclude Include="XConstant\XConstant.h" />
+    <ClInclude Include="XData\XReciveDataManage.h" />
+    <ClInclude Include="XData\XDelegateReciveDataManage.h" />
+    <ClInclude Include="XData\XDelegateSendDataManage.h" />
+    <ClInclude Include="XData\XSendDataManage.h" />
+    <ClInclude Include="XDialog\XChildDialog.h" />
+    <ClInclude Include="XDialog\XDialog.h" />
+    <ClInclude Include="XDialog\XResizingDialog.h" />
+    <ClInclude Include="XHandle\XHandleIni.h" />
+    <ClInclude Include="XHandle\XHandleCalculate.h" />
+    <ClInclude Include="XJson\XJsonManage.h" />
+    <ClInclude Include="XListCtrl\XSetListCtrl.h" />
+    <ClInclude Include="XHandle\XHandlePath.h" />
+    <ClInclude Include="XHandle\XHandleVerification.h" />
+    <ClInclude Include="XJson\autolink.h" />
+    <ClInclude Include="XJson\config.h" />
+    <ClInclude Include="XJson\features.h" />
+    <ClInclude Include="XJson\forwards.h" />
+    <ClInclude Include="XJson\json.h" />
+    <ClInclude Include="XJson\reader.h" />
+    <ClInclude Include="XJson\value.h" />
+    <ClInclude Include="XJson\writer.h" />
+    <ClInclude Include="XJson\json_batchallocator.h" />
+    <ClInclude Include="XListCtrl\XListCtrl.h" />
+    <ClInclude Include="XMessageBox\XMessageBox.h" />
+    <ClInclude Include="XMessageBox\XMessageBoxDlg.h" />
+    <ClInclude Include="XNet\UDP\XDelegateNetManage.h" />
+    <ClInclude Include="XNet\UDP\XNetManage.h" />
+    <ClInclude Include="XNet\UDP\XSocketUDP.h" />
+    <ClInclude Include="XResult\XResult.h" />
+    <ClInclude Include="XStatusBar\XStatusBar.h" />
+    <ClInclude Include="XText\XText.h" />
+    <ClInclude Include="XToolBar\XToolBar.h" />
+    <ClInclude Include="XTranslation\XTranslationManage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Optical.cpp" />
+    <ClCompile Include="OpticalDlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="XButton\XBtn.cpp" />
+    <ClCompile Include="XChildDlg\XAbout\AboutDlg.cpp" />
+    <ClCompile Include="XChildDlg\XHostConfig\XDelegateHostConfig.cpp" />
+    <ClCompile Include="XChildDlg\XHostConfig\XHostConfig.cpp" />
+    <ClCompile Include="XChildDlg\XLoginLoad\XLoginLoad.cpp" />
+    <ClCompile Include="XChildDlg\XLogin\XDelegateLogin.cpp" />
+    <ClCompile Include="XChildDlg\XLogin\XLogin.cpp" />
+    <ClCompile Include="XChildDlg\XPowerManage\XPowerManageItem.cpp" />
+    <ClCompile Include="XChildDlg\XPowerManage\XDelegatePowerManage.cpp" />
+    <ClCompile Include="XChildDlg\XPowerManage\XPowerManage.cpp" />
+    <ClCompile Include="XChildDlg\XPowerManage\XUserManage\XDelegateUserManage.cpp" />
+    <ClCompile Include="XResult\XLoginInfo.cpp" />
+    <ClCompile Include="XChildDlg\XPowerManage\XUserManage\XUserManage.cpp" />
+    <ClCompile Include="XChildDlg\XSetNet\XDelegateSetNet.cpp" />
+    <ClCompile Include="XChildDlg\XSetNet\XSetNet.cpp" />
+    <ClCompile Include="XConstant\XConstant.cpp" />
+    <ClCompile Include="XData\XReciveDataManage.cpp" />
+    <ClCompile Include="XData\XDelegateReciveDataManage.cpp" />
+    <ClCompile Include="XData\XDelegateSendDataManage.cpp" />
+    <ClCompile Include="XData\XSendDataManage.cpp" />
+    <ClCompile Include="XDialog\XChildDialog.cpp" />
+    <ClCompile Include="XDialog\XDialog.cpp" />
+    <ClCompile Include="XDialog\XResizingDialog.cpp" />
+    <ClCompile Include="XHandle\XHandleIni.cpp" />
+    <ClCompile Include="XHandle\XHandleCalculate.cpp" />
+    <ClCompile Include="XJson\XJsonManage.cpp" />
+    <ClCompile Include="XListCtrl\XSetListCtrl.cpp" />
+    <ClCompile Include="XHandle\XHandlePath.cpp" />
+    <ClCompile Include="XHandle\XHandleVerification.cpp" />
+    <ClCompile Include="XJson\json_reader.cpp" />
+    <ClCompile Include="XJson\json_value.cpp" />
+    <ClCompile Include="XJson\json_writer.cpp" />
+    <ClCompile Include="XListCtrl\XListCtrl.cpp" />
+    <ClCompile Include="XMessageBox\XMessageBox.cpp" />
+    <ClCompile Include="XMessageBox\XMessageBoxDlg.cpp" />
+    <ClCompile Include="XNet\UDP\XDelegateNetManage.cpp" />
+    <ClCompile Include="XNet\UDP\XNetManage.cpp" />
+    <ClCompile Include="XNet\UDP\XSocketUDP.cpp" />
+    <ClCompile Include="XResult\XResult.cpp" />
+    <ClCompile Include="XStatusBar\XStatusBar.cpp" />
+    <ClCompile Include="XText\XText.cpp" />
+    <ClCompile Include="XToolBar\XToolBar.cpp" />
+    <ClCompile Include="XTranslation\XTranslationManage.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Optical.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Optical.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

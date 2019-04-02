@@ -1,0 +1,5 @@
+[Info]
+Language=0
+DeviceIP=192.168.1.68
+DevicePort=12345
+UserName=admin
